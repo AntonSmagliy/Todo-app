@@ -1,0 +1,5 @@
+.search-panel input{
+    min-width: 350px;
+    padding: 5px 10px;
+    outline: none;
+}

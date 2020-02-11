@@ -1,0 +1,23 @@
+.buttons{
+
+}
+.buttons button{
+    padding: 5px 13px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-right: 5px;
+}
+.buttons button:last-child{
+    margin-right: 0;
+}
+.buttons button.active{
+    background-color: skyblue;
+}
+.buttons button.unactive{
+
+}
+.buttons button:hover{
+    background-color: skyblue;
+}

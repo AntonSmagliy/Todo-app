@@ -1,0 +1,25 @@
+.todo-list-item{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    font-weight: bold;
+}
+.todo-list-item .btn-group{
+
+}
+.todo-list-item .btn-group .btn{
+    width: 40px;
+    border: 1px solid lightslategrey;
+    margin-right: 5px;
+    border-radius: 5px!important;
+}
+.todo-list-item .btn-group .btn:last-child{
+    margin-right: 0px;
+}
+.todo-list-item .btn-group .btn-delete:hover{
+    background-color: orangered;
+}
+.todo-list-item .btn-group .btn-excl:hover{
+    background-color: mediumseagreen;
+}
